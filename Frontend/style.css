@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns:1fr 5fr;
+}
+
+.sidebar{
+    display: grid;
+    grid-template-columns:5fr fr;
+    background-color: aqua;
+}
