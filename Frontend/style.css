@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 3fr 5fr 1fr;
+    grid-template-columns: 2fr 5fr 1.1fr;
     grid-template-rows: auto 1fr;
     
 }
@@ -14,7 +14,7 @@
 
 }
 
-.main-contents {
+.main-content {
     background-color: rgb(87, 206, 166);
     grid-column: 2;
     grid-row: 2;
@@ -43,4 +43,44 @@
 .top3{
     display: flex;
     justify-content: space-between;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr;
+    gap:30px;
+    
+  
+    
+}
+
+.main{
+    display: grid;
+   
+    gap: 200px;
+
+
+}
+
+.projects div {
+    background-color: white;        /* card background */
+    padding: 15px 20px;             /* space inside the box */
+    margin: 10px;                   /* space between cards */
+    border-radius: 10px;            /* rounded corners */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* subtle shadow */
+    transition: transform 0.2s;     /* optional hover effect */
+}
+
+.projects div:hover {
+    transform: translateY(-5px);   /* hover lift effect */
+}
+
+.right{
+    background-color: rgb(127, 229, 255);
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin:0;
+    padding:0;
 }
